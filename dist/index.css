@@ -401,10 +401,7 @@ template {
   .bftn-homepage h1, .bftn-homepage h2, .bftn-homepage h3 {
     font-family: Montserrat, sans-serif;
     font-weight: bold;
-    background: -webkit-linear-gradient(#fd4935, #fd6d5a);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: #279cff; }
+    color: #fd4935; }
   .bftn-homepage h4 {
     font-family: Montserrat, sans-serif;
     font-weight: bold;
@@ -581,7 +578,9 @@ template {
         content: "Letter:";
         position: absolute;
         top: 10px;
-        left: 9px; }
+        left: 9px;
+        right: 20px;
+        background-color: white; }
     .bftn-homepage .petition-form button.btn {
       width: 100%;
       font-size: 18px; }
@@ -1103,6 +1102,8 @@ template {
     height: 60px;
     width: 60px;
     margin: -30px auto 0; }
+  .bftn-homepage .callform-modal .call-action-form h3 {
+    font-size: 30px; }
   .bftn-homepage .callform-modal .modal-content {
     height: 350px;
     max-width: 600px;
